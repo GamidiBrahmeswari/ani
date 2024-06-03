@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @keyframes identifier {
+            from {
+                background-color: rgb(191, 255, 127);
+                transform: scale(1);
+                border-radius: 10%;
+                transform: translate(10px,10px);
+                transform: translateY(100px);
+            }
+            to {
+                background-color: rgb(166, 149, 182);
+                transform: scale(2);
+                border-radius: 60%;
+                transform: translate(90px,90px);
+                transform: translateY(400px);
+            }
+        }
+        .sec1 {
+            margin: 10%;
+            height: 80px;
+            width: 80px;
+            align-items: center;
+            border: 1px solid black;
+            border-radius: 90%;
+            border-color: blueviolet;
+            background-color: aquamarine;
+            animation: identifier 3s infinite;
+            transform: translate(0px, 30px);
+            transform-origin: center;
+            animation-direction:reverse ;
+            animation-direction: alternate; 
+        }
+    </style>
+</head>
+<body>
+    <div class="sec1"></div>
+    <a href="./grid.html">grid task</a>
+</body>
+</html>
